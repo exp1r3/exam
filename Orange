@@ -1,0 +1,17 @@
+package Mid;
+
+public class Orange {
+
+	public static void main(String[] args) {
+		String orageString="This is orange juice";
+		String findString="orange";
+		int check=orageString.indexOf(findString);
+		if(check!=-1) {
+			System.out.println(findString+" Is Present in the String");
+		}
+		else {
+			System.out.println("No Match Found");
+		}
+	}
+
+}
