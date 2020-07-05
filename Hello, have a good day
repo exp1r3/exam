@@ -1,0 +1,14 @@
+package Mid;
+
+public class DelConsonent {
+
+	public static void main(String[] args) {
+		String givenString="Hello, have a good day";
+		String resutt;
+		String vowelString="([^aeiouyAEIOUY0-9\\W]+)";
+		resutt=givenString.replaceAll(vowelString, "");
+		System.out.println(resutt);
+		
+	}
+
+}
